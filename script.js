@@ -49,7 +49,6 @@ function changeRandomName() {
     // Выбираем случайное название из списка
     const randomIndex = Math.floor(Math.random() * possibleNames.length);
     const randomName = possibleNames[randomIndex];
-    
     nameElement.textContent = randomName;
 }
 setInterval(changeRandomName, 3000);

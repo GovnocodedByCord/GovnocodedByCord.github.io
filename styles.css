@@ -3,8 +3,9 @@ body, html {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    font-family: 'sansbold', Helvetica;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgba(255, 255, 255, 0.9);
+    letter-spacing: 0.2px;
 }
 
 a {
@@ -59,16 +60,12 @@ a {
 
 .loading {
     position: fixed;
+    display: flex;
+    align-items: center;
     bottom: 10px;
     left: 10px;
     font-size: 10px;
     color: rgba(255, 255, 255, 0.3);
-}
-
-.loading {
-    position: fixed;
-    display: flex;
-    align-items: center;
 }
 
 .loading i {
@@ -105,17 +102,19 @@ a {
 }
 
 .contact-information {
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.6);
     padding: 20px;
     border-radius: 20px;
     margin-top: 20px;
-    width: 320px;
+    width: 400px;
+    height: 230px;
     text-align: center;
 }
 
 .contact-information h2 {
     margin: 0;
-    font-size: 24px;
+    font-size: 20px;
+    letter-spacing: 2px;
 }
 
 .contact-details p {
@@ -170,8 +169,3 @@ a {
     height: 40px;
     border-radius: 5px;
 }
-
-.center-container h2 {
-    font-size: 25px;
-}
-
